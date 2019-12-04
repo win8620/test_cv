@@ -1,5 +1,5 @@
 
-# 1.4增加线程方式控制按钮
+# 1.4增加线程方式控制按钮..
 
 from tkinter import *
 import tkinter.messagebox
