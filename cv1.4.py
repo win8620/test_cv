@@ -74,11 +74,13 @@ class MainWindow:
         self.button2 = Button(self.frame,text = "30秒录制",width = 10,height = 5)
         #self.button3 = Button(self.frame,text = "button3",width = 10,height = 5)
         #self.button4 = Button(self.frame,text = "button4",width = 10,height = 5)
+        
  
         self.button1.grid(row = 0,column = 0,padx = 5,pady = 5)
         self.button2.grid(row = 0,column = 1,padx = 5,pady = 5)
         #self.button3.grid(row = 1,column = 0,padx = 5,pady = 5)
         #self.button4.grid(row = 1,column = 1,padx = 5,pady = 5)
+        
  
         self.button1.bind("<ButtonRelease-1>",self.buttonListener1)
         self.button2.bind("<ButtonRelease-1>",self.buttonListener2)
